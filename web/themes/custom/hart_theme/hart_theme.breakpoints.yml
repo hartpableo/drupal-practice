@@ -1,0 +1,42 @@
+hart_theme.tiny:
+  label: tiny
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+hart_theme.large_phone:
+  label: large_phone
+  mediaQuery: 'all and (min-width: 576px) and (max-width: 767px)'
+  weight: 1
+  multipliers:
+    - 1x
+hart_theme.small_tablet:
+  label: small_tablet
+  mediaQuery: 'all and (min-width: 768px) and (max-width: 991px)'
+  weight: 1
+  multipliers:
+    - 1x
+hart_theme.tablet:
+  label: tablet
+  mediaQuery: 'all and (min-width: 992px) and (max-width: 1199px)'
+  weight: 1
+  multipliers:
+    - 1x
+hart_theme.large_tablet:
+  label: large_tablet
+  mediaQuery: 'all and (min-width: 1200px) and (max-width: 1439px)'
+  weight: 1
+  multipliers:
+    - 1x
+hart_theme.large_desktop:
+  label: large_desktop
+  mediaQuery: 'all and (min-width: 1440px) and (max-width: 1919px)'
+  weight: 2
+  multipliers:
+    - 1x
+hart_theme.fullhd:
+  label: fullhd
+  mediaQuery: 'all and (min-width: 1920px)'
+  weight: 3
+  multipliers:
+    - 1x
