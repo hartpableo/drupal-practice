@@ -1,0 +1,13 @@
+name: Hart Theme (My First Drupal Theme!)
+type: theme
+core_version_requirement: ^8 || ^9
+description: "This is my very first Drupal custom theme! Hello World!"
+base theme: false
+screenshot: screenshot.png
+logo: logo.jpg
+favicon: favicon.ico
+regions:
+ header: Header
+ hart_nav: Navigation
+ content: Content
+ footer: Footer
